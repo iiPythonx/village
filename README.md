@@ -1,4 +1,4 @@
-# village
+# camp
 
 TBD
 
@@ -11,20 +11,20 @@ uv pip install -e .
 ### Launching a cabin
 
 ```sh
-village -s cabin
+camp -s cabin
 ```
 
 ### Launching a group
 
 ```sh
-village -s group
+camp -s group
 ```
 
 ### Public testing endpoints
 
-https://iipython.dev/.well-known/village -> https://village.iipython.dev  
+https://iipython.dev/.well-known/camp -> https://camp.iipython.dev  
 
-Main cabin: https://village.iipython.dev/cabin  
-Main group: https://village.iipython.dev  (apex)
+Main cabin: https://camp.iipython.dev/cabin  
+Main group: https://camp.iipython.dev  (apex)
 
 Sites will not be accessible during development.
