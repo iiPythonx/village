@@ -1,0 +1,19 @@
+[cabin]
+    region = "US"
+    contact = "iiPython <ben@iipython.dev>"
+
+    database = "db/cabin.db"
+
+[group]
+    rooms = [
+        "General",
+        "Development"
+    ]
+    allowed_cabins = ["*"]
+
+    # if you want to restrict to a specific cabin (or more):
+    # allowed_cabins = [
+    #     "iipython.dev"
+    # ]
+
+    database = "db/group.db"
